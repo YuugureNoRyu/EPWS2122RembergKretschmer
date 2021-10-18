@@ -15,3 +15,7 @@ Es besteht eine gesellschaftliche und wissenschaftliche Relevanz da durch dieses
 * https://www.jstor.org/stable/27004935 (Erwartungen an Vr im Unterricht)
 * https://vrty.io/vr-education/ (Beispiel für laufende Projekte zum bereich)
 * https://sdgs.un.org/goals (Übersicht über die Nachhaltigkeits Ziele der UN)
+
+# Namen
+* Yannik Kretschmer
+* Luca Remberg
