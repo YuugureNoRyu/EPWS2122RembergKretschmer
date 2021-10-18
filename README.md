@@ -11,7 +11,7 @@ Das Ziel ist eine interaktive und immersive Informationsvermittlung in Form eine
 ### Relevanz
 Es besteht eine gesellschaftliche und wissenschaftliche Relevanz da durch dieses Projekt der Wissensstand der User erweitert wird und dem User klar gemacht werden soll, dass der Ozean einen vielseitigen und schützenswerten Lebensraum darstellt.Durch dieses Projekt sollen Lehrer entlastet werden und der Unterricht in das 21.Jahrhundert befördert werden
 ### Quellen
-https://www.jstor.org/stable/23478690(Bestätigung dass im Lehrbereich veränderung benötigt wird)
-https://www.jstor.org/stable/27004935(Erwartungen an Vr im Unterricht)
-https://vrty.io/vr-education/(Beispiel für laufende Projekte zum bereich)
-https://sdgs.un.org/goals(Übersicht über die Nachhaltigkeits Ziele der UN)
+* https://www.jstor.org/stable/23478690 (Bestätigung dass im Lehrbereich veränderung benötigt wird)
+* https://www.jstor.org/stable/27004935 (Erwartungen an Vr im Unterricht)
+* https://vrty.io/vr-education/ (Beispiel für laufende Projekte zum bereich)
+* https://sdgs.un.org/goals (Übersicht über die Nachhaltigkeits Ziele der UN)
