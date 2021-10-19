@@ -19,3 +19,8 @@ Es besteht eine gesellschaftliche und wissenschaftliche Relevanz da durch dieses
 # Namen
 * Yannik Kretschmer
 * Luca Remberg
+# Deliverables: Audit 1
+* Storyboard            //beide
+* "Gameplay" Konzept    //beide
+* Concept Art           //beide
+* Projekt Plan          //beide
