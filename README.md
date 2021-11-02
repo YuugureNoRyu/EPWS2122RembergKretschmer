@@ -21,6 +21,6 @@ Es besteht eine gesellschaftliche und wissenschaftliche Relevanz da durch dieses
 * Luca Remberg
 # Deliverables: Audit 1
 * Storyboard            //beide
-* "Gameplay" Konzept    //beide
+* "Gameplay" Konzept Theorie  //beide
 * Concept Art           //beide
 * Projekt Plan          //beide
