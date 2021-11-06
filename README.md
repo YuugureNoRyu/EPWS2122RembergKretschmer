@@ -13,7 +13,7 @@ Es besteht eine gesellschaftliche und wissenschaftliche Relevanz da durch dieses
 ### Quellen
 * https://www.jstor.org/stable/23478690 (Bestätigung dass im Lehrbereich veränderung benötigt wird)
 * https://www.jstor.org/stable/27004935 (Erwartungen an Vr im Unterricht)
-* https://vrty.io/vr-education/ (Beispiel für laufende Projekte zum bereich)
+* https://vrty.io/vr-case-studies/ (Beispiel für laufende Projekte zum bereich)
 * https://sdgs.un.org/goals (Übersicht über die Nachhaltigkeits Ziele der UN)
 
 # Namen
