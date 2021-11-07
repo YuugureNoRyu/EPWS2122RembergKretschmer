@@ -1,25 +1,26 @@
 
 # Quellen
-* https://www.spektrum.de/wissen/die-10-faszinierendsten-tiere-der-tiefsee/1224746
+* Allgemeine Informationen:
+  * https://www.spektrum.de/wissen/die-10-faszinierendsten-tiere-der-tiefsee/1224746
 * Tiere der Tiefsee:
-** https://www.spektrum.de/wissen/die-10-faszinierendsten-tiere-der-tiefsee/1224746
+  * https://www.spektrum.de/wissen/die-10-faszinierendsten-tiere-der-tiefsee/1224746
 (abgerufen am 05.11.2021).
 
 * Subnautica:	
-** https://unknownworlds.com/subnautica/  (abgerufen am 07.11.2021).
-** https://de.wikipedia.org/wiki/Subnautica
+  * https://unknownworlds.com/subnautica/  (abgerufen am 07.11.2021).
+  * https://de.wikipedia.org/wiki/Subnautica
 (abgerufen am 07.11.2021).
 
 
 * ABZÙ:
-** https://abzugame.com
+  * https://abzugame.com
 (abgerufen am 07.11.2021).
-** https://en.wikipedia.org/wiki/Abzû
+  * https://en.wikipedia.org/wiki/Abzû
 (abgerufen am 07.11.2021).
 * VRTY:
-** https://vrty.io/vr-case-studies/
+  * https://vrty.io/vr-case-studies/
 (abgerufen am 07.11.2021).
 * WorldofVR:
-** https://worldofvr.net
+  * https://worldofvr.net
 (abgerufen am 07.11.2021).
 
