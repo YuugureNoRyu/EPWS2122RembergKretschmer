@@ -23,4 +23,12 @@
 * WorldofVR:
   * https://worldofvr.net
 (abgerufen am 07.11.2021).
+* Bestätigung dass im Lehrbereich veränderung benötigt wird:
+  * https://www.jstor.org/stable/23478690 
+* Erwartungen an Vr im Unterricht:
+  * https://www.jstor.org/stable/27004935 
+* Beispiel für laufende Projekte zum bereich:
+  * https://vrty.io/vr-case-studies/
+* Übersicht über die Nachhaltigkeits Ziele der UN:
+  * https://sdgs.un.org/goals 
 
