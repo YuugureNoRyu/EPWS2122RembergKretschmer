@@ -4,6 +4,14 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Aa]ssetBundles/
+
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/AssetBundles/
+
 /Assets/AssetStoreTools*
 Assets/MeshBaker/
 Assets/MeshBaker.meta
