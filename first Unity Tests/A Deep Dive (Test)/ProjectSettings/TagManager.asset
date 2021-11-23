@@ -3,7 +3,45 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Hand
+  - extinguisher
+  - player_hands
+  - player_hands_indexTip
+  - fire
+  - kegel
+  - mainCollisionMesh
+  - ladder
+  - spray
+  - bindemittel
+  - mainCamera
+  - gloves
+  - Gas Bottle
+  - lock
+  - keyB
+  - keyA
+  - Top
+  - keyC
+  - Schlauch
+  - Ettikette 1
+  - Ettikette 2
+  - Ettikette 3
+  - Food
+  - Akku
+  - keyTest
+  - Label Extra 1
+  - Label Extra 2
+  - Label Extra 3
+  - Label Extra 4
+  - Label Extra 5
+  - Label Extra 6
+  - brokenTube
+  - default
+  - paper
+  - wrong
+  - item_carrots
+  - item_banana
+  - item_lemon
   layers:
   - Default
   - TransparentFX
@@ -13,11 +51,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Hands
+  - Handler
+  - Teleporter
+  - Player
+  - Floor
   - 
   - 
   - 

@@ -9,13 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de5210ce93b60c74b910290c522cd727, type: 3}
+  m_Script: {fileID: 11500000, guid: bb2c19b9d9e9a024f9d0cbf62af6611d, type: 3}
   m_Name: EditorStartupPrefs
   m_EditorClassIdentifier: 
   welcomeScreenVersion: '1.9.0 '
   playmakerVersion: 
-  showWelcomeScreen: 1
+  showWelcomeScreen: 0
   showUpgradeGuide: 0
-  lastAutoUpdateSignature: 2020.3.23f1__C:/Users/yanni/OneDrive/Documents/EPWS2122RembergKretschmer/first
-    Unity Tests/A Deep Dive (Test)/Assets__0.0.0.0
+  lastAutoUpdateSignature: 2019.4.20f1__D:/WoVR Projekte/A Deep Dive (Test) 2/Assets__0.0.0.0
   useLegacyNetworking: 0
