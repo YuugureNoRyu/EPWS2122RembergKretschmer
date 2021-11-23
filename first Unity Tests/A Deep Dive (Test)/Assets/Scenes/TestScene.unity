@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.35239303, g: 0.5784324, b: 0.76843244, a: 1}
+  m_IndirectSpecularColor: {r: 0.35239184, g: 0.5784326, b: 0.7684325, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6684,7 +6684,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853137425}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.6, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 1914103717}
@@ -6829,7 +6829,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1909145376}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.94, y: 0.359, z: 37.47}
+  m_LocalPosition: {x: -9.94, y: 0.935, z: 37.47}
   m_LocalScale: {x: 0.32757, y: 0.32757, z: 0.32757}
   m_Children: []
   m_Father: {fileID: 276898322}
@@ -7122,6 +7122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ebf0b088743174086b6897b61df5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializedGuid: ca7120dfcfe18444b11cefdf19ee2799
 --- !u!1 &1944722642
 GameObject:
   m_ObjectHideFlags: 0
@@ -9435,6 +9436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ebf0b088743174086b6897b61df5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializedGuid: 6cdc874568ec4441bd12404c54edf55c
 --- !u!114 &4184441264575026760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9557,6 +9559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ebf0b088743174086b6897b61df5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializedGuid: 4a7d76c632832b43bd023dd3959fa5bc
 --- !u!1 &4184441264575026917
 GameObject:
   m_ObjectHideFlags: 0
@@ -10250,6 +10253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ebf0b088743174086b6897b61df5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializedGuid: 96f5c970f4ae0d408c09395b1dc2b423
 --- !u!1 &4185844788335150448
 GameObject:
   m_ObjectHideFlags: 0
@@ -12327,6 +12331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ebf0b088743174086b6897b61df5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializedGuid: d5c888945bba0748abd64e13a1f4643c
 --- !u!114 &6865912455158453271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12600,6 +12605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ebf0b088743174086b6897b61df5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializedGuid: 3bc6da8a481efa44b07d529f9039e586
 --- !u!114 &6865912456191034431
 MonoBehaviour:
   m_ObjectHideFlags: 0
