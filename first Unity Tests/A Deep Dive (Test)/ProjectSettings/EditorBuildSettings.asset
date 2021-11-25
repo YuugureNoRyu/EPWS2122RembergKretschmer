@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/TestScene.unity
+    path: "Assets/Scenes/Yannik\xB4s Spielplatz.unity"
     guid: 36f635ceee934e5418588f0bd82216fe
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4ca5c3353d34ad045bd4737f91e8bfeb,
