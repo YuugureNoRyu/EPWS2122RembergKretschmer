@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.35239303, g: 0.5784324, b: 0.76843244, a: 1}
+  m_IndirectSpecularColor: {r: 0.3518418, g: 0.5781066, b: 0.76798, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9289,6 +9289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ebf0b088743174086b6897b61df5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializedGuid: c23c4fdcf635644baa36bcadb260a1f6
 --- !u!1 &1944722642
 GameObject:
   m_ObjectHideFlags: 0
@@ -11546,7 +11547,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4184441264575026762}
   m_LocalRotation: {x: -0, y: 0.70710707, z: -0, w: 0.70710653}
-  m_LocalPosition: {x: -4.7, y: 0.236, z: 2}
+  m_LocalPosition: {x: -4.7, y: 0.02, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4184441264575026581}
@@ -11847,6 +11848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ebf0b088743174086b6897b61df5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializedGuid: f3d3fa9901d82d42b3f957ead06b6d40
 --- !u!114 &4184441264575026760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11969,6 +11971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ebf0b088743174086b6897b61df5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializedGuid: 03499d6cb7949c459f3bc78d6682ce28
 --- !u!1 &4184441264575026917
 GameObject:
   m_ObjectHideFlags: 0
@@ -12662,6 +12665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ebf0b088743174086b6897b61df5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializedGuid: 4ad53212bdafe64898700136d76d2b0f
 --- !u!1 &4185844788335150448
 GameObject:
   m_ObjectHideFlags: 0
@@ -14757,6 +14761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ebf0b088743174086b6897b61df5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializedGuid: 1d0ae114ff1b254eb3f18b004d498eae
 --- !u!114 &6865912455158453271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15030,6 +15035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ebf0b088743174086b6897b61df5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializedGuid: c7b0ff385b4694469e6582dfad9d1ec8
 --- !u!114 &6865912456191034431
 MonoBehaviour:
   m_ObjectHideFlags: 0
