@@ -12,6 +12,6 @@ public Transform Waffe;
   {
       GameObject spawnedBullet=Instantiate(bullet,Waffe.position,Waffe.rotation);
       spawnedBullet.GetComponent<Rigidbody>().velocity=speed*Waffe.forward;
-      Destroy(spawnedBullet,2);
+      Destroy(spawnedBullet,4);
   }
 }
