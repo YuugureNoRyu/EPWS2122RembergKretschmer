@@ -1,0 +1,17 @@
+{
+    "name": "WoVR.Guid.Editor",
+    "references": [
+        "GUID:dabd0a9326214e94291937a42a2d1464"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
