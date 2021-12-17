@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: "Assets/Scenes/Yannik\xB4s Spielplatz.unity"
     guid: 36f635ceee934e5418588f0bd82216fe
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: 66cb94f5bec2532459d3dc47dba50eca
   - enabled: 1
