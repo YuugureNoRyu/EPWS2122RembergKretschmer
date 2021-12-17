@@ -24,7 +24,7 @@ public class Animation_Pause : MonoBehaviour
             }
         }
 
-        private void OnHoverExit(Collider other)
+        private void OnLastHoverExit(Collider other)
         {
             anim.enabled=true;
              foreach(AnimationState state in anim )
