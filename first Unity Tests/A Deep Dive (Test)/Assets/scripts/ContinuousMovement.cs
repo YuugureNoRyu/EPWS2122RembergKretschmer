@@ -40,4 +40,11 @@ private CharacterController character;
     character.Move(direction * Time.fixedDeltaTime * speed);
 }
 }
+public void BewegungAendern()
+{
+    if(aktiv=true)
+    { aktiv=false;}
+    else 
+    {aktiv=true;}
+}
 }
