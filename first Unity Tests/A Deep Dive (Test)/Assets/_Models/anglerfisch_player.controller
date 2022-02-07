@@ -11,7 +11,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -4472284202683778906}
-    m_Position: {x: 290, y: 60, z: 0}
+    m_Position: {x: 320, y: 90, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -42,7 +42,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 4781951162920444690, guid: 4b16bfde0f51e4c4691eb5ffa2c20f25,
+  m_Motion: {fileID: 4781951162920444690, guid: b3344b50c21d1f04aa8f8f727ecb636a,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -55,7 +55,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: winteria2
+  m_Name: anglerfisch_player
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
