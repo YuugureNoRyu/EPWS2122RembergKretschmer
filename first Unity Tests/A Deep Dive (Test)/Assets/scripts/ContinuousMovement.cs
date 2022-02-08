@@ -42,7 +42,7 @@ private CharacterController character;
 }
 public void BewegungAendern()
 {
-    if(aktiv=true)
+    if(aktiv==true)
     { aktiv=false;}
     else 
     {aktiv=true;}
