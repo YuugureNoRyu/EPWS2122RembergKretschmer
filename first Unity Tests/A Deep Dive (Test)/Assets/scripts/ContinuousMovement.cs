@@ -10,7 +10,7 @@ private Vector2 inputAxis;
 private XRRig rig;
 public float additionalHeight=0.2f;
 public float speed =1;
-public bool aktiv=true;
+public bool freieBewegungAktiv=true;
 private CharacterController character;
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,7 @@ private CharacterController character;
 
     // Update is called once per frame
     void Update()
-    {if(aktiv=true)
+    {if(freieBewegungAktiv==true)
     {
        InputDevice device = InputDevices.GetDeviceAtXRNode(inputSource);
        device.TryGetFeatureValue(CommonUsages.primary2DAxis,out inputAxis);
@@ -33,7 +33,7 @@ private CharacterController character;
         character.center=new Vector3(capsuleCenter.x,character.height/2+character.skinWidth,capsuleCenter.z);
     }
     public void FixedUpdate()
-{ if(aktiv=true)
+{ if(freieBewegungAktiv==true)
   { CapsuleFollowHeadset();
        Quaternion headYaw=Quaternion.Euler(0,rig.cameraGameObject.transform.eulerAngles.y,0);
     Vector3 direction = headYaw * new Vector3(inputAxis.x, 0,inputAxis.y);
@@ -42,9 +42,9 @@ private CharacterController character;
 }
 public void BewegungAendern()
 {
-    if(aktiv==true)
-    { aktiv=false;}
+    if(freieBewegungAktiv==true)
+    { freieBewegungAktiv=false;}
     else 
-    {aktiv=true;}
+    {freieBewegungAktiv=true;}
 }
 }
