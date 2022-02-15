@@ -10,7 +10,7 @@ private Vector2 inputAxis;
 private XRRig rig;
 public float additionalHeight=0.2f;
 public float speed =1;
-public bool freieBewegungAktiv=true;
+public static bool freieBewegungAktiv;
 private CharacterController character;
     // Start is called before the first frame update
     void Start()
