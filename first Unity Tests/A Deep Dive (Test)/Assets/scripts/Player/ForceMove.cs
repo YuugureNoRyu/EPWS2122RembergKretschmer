@@ -11,7 +11,6 @@ public class ForceMove : MonoBehaviour
 private XRRig rig;
 private CharacterController character;
 public float speed =1;
-public bool sceneStarten=false;
 
 
     
