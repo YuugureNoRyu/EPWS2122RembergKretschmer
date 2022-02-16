@@ -42,6 +42,7 @@ TagManager:
   - item_carrots
   - item_banana
   - item_lemon
+  - Locomotion
   layers:
   - Default
   - TransparentFX

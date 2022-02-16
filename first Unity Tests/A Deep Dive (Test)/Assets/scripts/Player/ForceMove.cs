@@ -27,8 +27,8 @@ public float speed =1;
 
     
     
-         Quaternion headYaw=Quaternion.Euler(0,rig.cameraGameObject.transform.eulerAngles.y,0);
-         Vector3 direction = headYaw * new Vector3(0, -1f,0);
+     
+         Vector3 direction =new Vector3(0, -1f,0);
          
     character.Move(direction * Time.fixedDeltaTime * speed);
     

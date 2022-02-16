@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
@@ -10,13 +10,16 @@ private Vector2 inputAxis;
 private XRRig rig;
 public float additionalHeight=0.2f;
 public float speed =1;
-public static bool freieBewegungAktiv;
+public bool freieBewegungAktiv=true;
 private CharacterController character;
+public GameObject Teleporter;
+
     // Start is called before the first frame update
     void Start()
     {
         character= GetComponent<CharacterController>();
         rig=GetComponent<XRRig>();
+        Teleporter=GameObject.FindWithTag("Locomotion");
     }
 
     // Update is called once per frame
@@ -43,8 +46,14 @@ private CharacterController character;
 public void BewegungAendern()
 {
     if(freieBewegungAktiv==true)
-    { freieBewegungAktiv=false;}
+    { freieBewegungAktiv=false;
+    Teleporter.SetActive(true);
+    }
     else 
-    {freieBewegungAktiv=true;}
+    {
+        freieBewegungAktiv=true;
+    Teleporter.SetActive(false);
+    
+    }
 }
 }
