@@ -6,17 +6,12 @@ using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.SceneManagement;  
 public class ForceMove : MonoBehaviour
 {    public float targetTime = 10f;
-    
-
-
-    public int SceneNumber=1; 
+     public int SceneNumber=1; 
     public XRNode inputSource;
 private XRRig rig;
 private CharacterController character;
 public float speed =1;
-
-
-    
+public GameObject WasserBox;
 
  
  public void Update(){
@@ -34,7 +29,8 @@ public float speed =1;
          Vector3 direction =new Vector3(0, -1f,0);
          
     character.Move(direction * Time.fixedDeltaTime * speed);}
-else{
+   
+    else{
 
   
         SceneManager.LoadScene(SceneNumber);  
@@ -48,6 +44,7 @@ else{
  
  
 }
+
 
 
 

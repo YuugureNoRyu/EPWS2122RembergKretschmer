@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ChildDeactivate : MonoBehaviour
 {
- private void OnEnable()
+ public void AlleAn()
  {
      for (int i = 0; i < transform.childCount; i++)
      {
@@ -12,4 +12,11 @@ public class ChildDeactivate : MonoBehaviour
      }
  }
     
+ public void AlleAus()
+ {
+     for (int i = 0; i < transform.childCount; i++)
+     {
+         transform.GetChild(i).gameObject.SetActive(false);
+     }
+ }
 }
