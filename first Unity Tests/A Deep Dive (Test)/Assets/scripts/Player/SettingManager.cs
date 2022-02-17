@@ -4,22 +4,26 @@ using UnityEngine;
 
 public class SettingManager : MonoBehaviour
 {
-   public static bool freieBewegungAktiv;
+   public static bool freeMove;
    public static bool phobiaModus;
 
    public void Phobiawechel()
 {
 if(phobiaModus==true)
     {phobiaModus = false;
+     Debug.Log(phobiaModus);
     }
-    else{phobiaModus =true;}
+    else{phobiaModus =true;
+    Debug.Log(phobiaModus);}
 }
     public void BewegungAendern()
 {
-    if(freieBewegungAktiv==true)
-    { freieBewegungAktiv=false;}
+    if(freeMove==true)
+    { freeMove=false;
+    Debug.Log(freeMove);}
     else 
-    {freieBewegungAktiv=true;}
+    {freeMove=true;
+      Debug.Log(freeMove);}
 }
 
   

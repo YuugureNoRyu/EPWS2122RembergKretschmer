@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
-
+using UnityEngine.SceneManagement;  
 public class ForceMove : MonoBehaviour
 {    public float targetTime = 10f;
-     
+    
+
+
+    public int SceneNumber=1; 
     public XRNode inputSource;
 private XRRig rig;
 private CharacterController character;
@@ -30,14 +33,21 @@ public float speed =1;
      
          Vector3 direction =new Vector3(0, -1f,0);
          
-    character.Move(direction * Time.fixedDeltaTime * speed);
-    
+    character.Move(direction * Time.fixedDeltaTime * speed);}
+else{
+
+  
+        SceneManager.LoadScene(SceneNumber);  
+  
+}   
+
+
  }
  
  
  
  
 }
-}
+
 
 

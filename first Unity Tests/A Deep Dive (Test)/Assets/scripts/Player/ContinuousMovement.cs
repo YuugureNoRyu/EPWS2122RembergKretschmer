@@ -5,12 +5,13 @@ using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class ContinuousMovement : MonoBehaviour
-{public XRNode inputSource;
+{
+public XRNode inputSource;
 private Vector2 inputAxis;
 private XRRig rig;
 public float additionalHeight=0.2f;
 public float speed =1;
-public bool freieBewegungAktiv=true;
+public bool freieBewegungAktiv;
 private CharacterController character;
 public GameObject Teleporter;
 
@@ -20,11 +21,12 @@ public GameObject Teleporter;
         character= GetComponent<CharacterController>();
         rig=GetComponent<XRRig>();
         Teleporter=GameObject.FindWithTag("Locomotion");
+       freieBewegungAktiv= SettingManager.freeMove;
     }
 
     // Update is called once per frame
     void Update()
-    {if(freieBewegungAktiv==true)
+    {if(SettingManager.freeMove==true)
     {
        InputDevice device = InputDevices.GetDeviceAtXRNode(inputSource);
        device.TryGetFeatureValue(CommonUsages.primary2DAxis,out inputAxis);
@@ -36,7 +38,7 @@ public GameObject Teleporter;
         character.center=new Vector3(capsuleCenter.x,character.height/2+character.skinWidth,capsuleCenter.z);
     }
     public void FixedUpdate()
-{ if(freieBewegungAktiv==true)
+{ if(SettingManager.freeMove==true)
   { CapsuleFollowHeadset();
        Quaternion headYaw=Quaternion.Euler(0,rig.cameraGameObject.transform.eulerAngles.y,0);
     Vector3 direction = headYaw * new Vector3(inputAxis.x, 0,inputAxis.y);
@@ -45,13 +47,13 @@ public GameObject Teleporter;
 }
 public void BewegungAendern()
 {
-    if(freieBewegungAktiv==true)
-    { freieBewegungAktiv=false;
+    if(SettingManager.freeMove==true)
+    { SettingManager.freeMove=false;
     Teleporter.SetActive(true);
     }
     else 
     {
-        freieBewegungAktiv=true;
+        SettingManager.freeMove=true;
     Teleporter.SetActive(false);
     
     }
