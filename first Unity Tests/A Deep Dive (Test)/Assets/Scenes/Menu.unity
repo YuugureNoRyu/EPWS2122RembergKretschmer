@@ -478,7 +478,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3fb84352e88576f41b2d1a98868c2cc8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2f739ff797d42ac41a3cc91bb852a194, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2370,10 +2370,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputSource: 4
+  rig: {fileID: 0}
   additionalHeight: 0.2
   speed: 1.66
   freieBewegungAktiv: 1
   Teleporter: {fileID: 0}
+  Player: {fileID: 0}
+  Telelaser: {fileID: 0}
 --- !u!143 &494789551
 CharacterController:
   m_ObjectHideFlags: 0
