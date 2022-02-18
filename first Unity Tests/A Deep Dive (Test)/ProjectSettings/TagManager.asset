@@ -15,7 +15,7 @@ TagManager:
   - WaterBox
   - Animal
   - Anglerfisch
-  - StirnLampe
+  - KopfLampe
   layers:
   - Default
   - TransparentFX

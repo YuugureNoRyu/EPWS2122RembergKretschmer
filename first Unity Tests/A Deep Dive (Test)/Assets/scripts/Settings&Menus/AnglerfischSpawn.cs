@@ -7,28 +7,46 @@ public class AnglerfischSpawn : MonoBehaviour
     public static bool WinteriaInteragiert=false;
     public static bool QualleInteragiert=false;
     public static bool VampierfischInteragiert=false;
-    public static bool Spawn=false;
+    public bool spawnable=true;
     public float targetTime=10f;
-    public GameObject StirnLampe=GameObject.FindWithTag("StrinLampe");
-public int x=0;
-    public void Update()
-    {
-if(WinteriaInteragiert&&QualleInteragiert&&VampierfischInteragiert&&x==0)
-{
-Spawn=true;
+     public GameObject StirnLampe;
+     public int bigboy=0;
+public int cooldown=1;     
 
-Debug.Log("Anglerfisch gespawnt");
-LampeAusfallen();
-x++;
+ void Start()
+{ 
+ 
+this.GetComponent<BoxCollider>().enabled=false;
 }
-    }
 
-    public void Qualle()
-    {QualleInteragiert=true;
-    Debug.Log("Qualle Check");}
+
+
+public void Update()
+{
+if(WinteriaInteragiert&&QualleInteragiert&&VampierfischInteragiert&&spawnable)
+{cooldown=0;
+Debug.Log("Anglerfisch gespawnt");
+StirnLampe=GameObject.FindWithTag("KopfLampe");}
+if(cooldown==0)
+{targetTime -= Time.deltaTime;
+LampeAusfallen();}
+if(bigboy==1)
+{go();}
+
+}
+    
+    public void Timer()
+    {
+targetTime -= Time.deltaTime;
+    }
+public void Qualle()
+{QualleInteragiert=true;
+ Debug.Log("Qualle Check");}
+
 public void Winteria()
 {WinteriaInteragiert=true;
  Debug.Log("Winteria Check");}
+
 public void Vampierfisch()
 {VampierfischInteragiert=true;
  Debug.Log("Vampirtintenfisch Check");}
@@ -36,13 +54,23 @@ public void Vampierfisch()
 
 public void LampeAusfallen()
 {
-targetTime -= Time.deltaTime;
+
  
  if (targetTime >= 0.0f)
- {StirnLampe.SetActive(false);}
- else{StirnLampe.SetActive(true);}
-
-
-
+ {StirnLampe.GetComponent<Light>().enabled=false;
+ Debug.Log("LichtAus");}
+ else{StirnLampe.GetComponent<Light>().enabled=true;
+ Debug.Log("LichtAn");
+ bigboy=1;
+ }
+}
+public void go()
+{
+    
+this.transform.position=new Vector3(-8,2.5f,-20);
+this.GetComponent<Anglerfisch_Start>().GoFisch();
+this.GetComponent<BoxCollider>().enabled=true;
+spawnable=false;
 }
 }
+
