@@ -8,18 +8,19 @@ public class ContinuousMovement : MonoBehaviour
 {
 public XRNode inputSource;
 private Vector2 inputAxis;
-private XRRig rig;
+public XRRig rig;
 public float additionalHeight=0.2f;
 public float speed =1;
 public bool freieBewegungAktiv;
 private CharacterController character;
 public GameObject Teleporter;
+public GameObject Player;
 
     // Start is called before the first frame update
     void Start()
-    {
-        character= GetComponent<CharacterController>();
-        rig=GetComponent<XRRig>();
+    {Player=GameObject.FindWithTag("Player");
+        character= Player.GetComponent<CharacterController>();
+        rig=Player.GetComponent<XRRig>();
         Teleporter=GameObject.FindWithTag("Locomotion");
        freieBewegungAktiv= SettingManager.freeMove;
     }
