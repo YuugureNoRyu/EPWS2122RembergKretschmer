@@ -16,6 +16,7 @@ TagManager:
   - Animal
   - Anglerfisch
   - KopfLampe
+  - RechtsTele
   layers:
   - Default
   - TransparentFX

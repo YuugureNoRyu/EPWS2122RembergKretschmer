@@ -15,6 +15,7 @@ public bool freieBewegungAktiv;
 private CharacterController character;
 public GameObject Teleporter;
 public GameObject Player;
+public GameObject Telelaser;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public GameObject Player;
         rig=Player.GetComponent<XRRig>();
         Teleporter=GameObject.FindWithTag("Locomotion");
        freieBewegungAktiv= SettingManager.freeMove;
+       Telelaser=GameObject.FindWithTag("RechtsTele");
     }
 
     // Update is called once per frame
@@ -51,11 +53,13 @@ public void BewegungAendern()
     if(SettingManager.freeMove==true)
     { SettingManager.freeMove=false;
     Teleporter.SetActive(true);
+    Telelaser.SetActive(true);
     }
     else 
     {
         SettingManager.freeMove=true;
     Teleporter.SetActive(false);
+    Telelaser.SetActive(false);
     
     }
 }
