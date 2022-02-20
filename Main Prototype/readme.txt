@@ -1,5 +1,6 @@
 Installationsanleitung
 --------------------------------------------
+Download: https://th-koeln.sciebo.de/s/vdh7jfaeQoBrVLV
 Zur Installation einfach die .apk auf eine Meta (bzw. Oculus) Quest 1 / 2 laden. 
 (empfehlenswert ist dafür SideQuest)
 
@@ -11,3 +12,4 @@ Credits
 --------------------------------------------
 Developer: 	Yannik Leon Kretschmer
 		Luca Remberg
+		
